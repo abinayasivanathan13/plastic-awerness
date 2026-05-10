@@ -14,13 +14,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(180deg, #e0f2fe 0%, #f8fafc 100%);
+  background: linear-gradient(180deg, #83f38985 0%, #0c76df31 100%);
   color: var(--text);
 }
 
 .site-header {
   padding: 24px 28px;
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(198, 211, 10, 0.288);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -207,13 +207,14 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-top: 24px;
+  gap: 24px;
 }
 
 .waste-image-section img {
   border-radius: 18px;
   object-fit: cover;
-  width: 240px;
-  height: 240px;
+  width: 500px;
+  height: 500px;
   box-shadow: 0 14px 32px rgba(6, 54, 53, 0.12);
 }
 
